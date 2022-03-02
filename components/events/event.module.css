@@ -1,0 +1,30 @@
+.ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.li {
+  margin: 10px;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgb(110, 110, 110);
+}
+.info {
+  padding: 0px 10px 0 10px;
+}
+
+.image {
+  width: 300px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 0;
+}
+.address svg,
+.time svg {
+  width: 14px;
+  margin-right: 3px;
+}

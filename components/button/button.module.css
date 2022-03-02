@@ -1,0 +1,18 @@
+.button {
+  position: relative;
+  display: flex;
+  width: fit-content;
+  padding: 10px 30px 10px 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(44, 141, 109);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button span:last-child {
+  width: fit-content;
+  min-width: 20px;
+  margin-left: 10px;
+}
+.button:hover {
+  background-color: rgb(32, 104, 80);
+}
